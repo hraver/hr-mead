@@ -1,0 +1,204 @@
+#header{
+   display:flex;
+   justify-content: center;
+   background-color: #625f5e;
+   width: 100%;
+   height:169px;
+   }
+   
+   body{
+   
+       background-color: #625f5e;
+   
+   
+   
+   }
+   
+   
+   ul {
+       list-style-type: none;
+       margin: 0;
+       padding: 0;
+       overflow: hidden;
+       background-color: #625f5e;
+     }
+     
+     li {
+       float: right;
+       margin-left: 5px;
+       margin-right: 5px;
+     }
+       
+     
+     li a {
+       display: block;
+       border-style: solid; 
+       border-width:3px;
+       border-color: black;
+       background-color: #cdb736;
+       color: black;
+       text-align: center;
+       padding: 14px 16px;
+       text-decoration: none;
+       font-family: Verdana, Geneva, Tahoma, sans-serif;
+     }
+     
+   
+     li a:hover {
+       background-color:black;
+       color: #625f5e;
+   
+     }
+   
+      h3{
+   
+       color: #cdb736;
+       font-family: Arial, Helvetica, sans-serif;
+      }
+   
+       h2{color: #cdb736;
+         font-family: Arial, Helvetica, sans-serif;
+     }
+   
+     h1{color: #cdb736;
+       font-family: Arial, Helvetica, sans-serif;
+   }
+   
+   p{
+       color: #cdb736;
+       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+       font-size: 16px;
+   
+   }
+   
+   .footer{
+   display:flex;
+   flex-wrap: wrap;
+   background-color:black;
+   padding-left: 15%;
+   padding-right: 15%;
+   justify-content: space-between;
+   
+     
+   }
+   
+   .linkage{
+     color: #cdb736;
+     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+     font-size: 16px; 
+   }
+   
+   .linkage:hover {
+     color: black;
+   
+   }
+   
+   .social{
+     margin-top:15px ;
+   }
+
+
+video{
+   width:100%;
+}
+
+.full{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 20px;
+  margin-right:20px;
+  
+
+}
+.bees{
+width:30%;
+
+margin-right: 110px;
+}
+.spinner{
+  width:30%;
+margin-top: 185px;
+}
+.spinner>.spin{
+  width:40%;
+    margin-left: 30%;
+}
+.poster{
+  width:30%;
+  margin-top: 185px;
+  text-align: center;
+}
+.poster>.post{
+  width: 40%;
+  
+}
+.desc{
+  text-align: left;
+}
+
+.middle {
+  text-align: center;
+}
+
+.cu{
+  margin-left:1%;
+  margin-top:2%;
+}
+
+.center{
+  text-align: center;
+}
+
+.long{
+  width:100%;
+  height:3px;
+  background-color: #cdb736;
+  
+  }
+
+  .beemother{
+   
+     background-color: #cdb736;
+     display:flex;
+  justify-content: left;
+ 
+    
+  }
+  .beedaughter{
+    width:0%;
+    margin-right:22%;
+  }
+
+
+
+  .bechat{
+color:black;
+margin-right: 4%;
+margin-left: 5%;
+
+  }
+  
+
+  .cu2{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+  }
+
+    .beetalk{
+
+      color: black;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+      margin-right:10px;
+
+
+    }
+  
+ 
+  
+ 
+    
+
+
+
+  
