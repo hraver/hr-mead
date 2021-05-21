@@ -300,9 +300,7 @@ height: auto;
     color: black;
     font-size:32pt;
     padding-left: 10px;
-    white-space: nowrap;
-       overflow: hidden;
-       text-overflow: ellipsis;
+    margin-top:7%;
    
   }
 
@@ -312,7 +310,7 @@ height: auto;
   font-size: 10pt;
   color:black;
   font-weight:bold;  
- 
+  margin-top: 4%;
 } 
 
 }
