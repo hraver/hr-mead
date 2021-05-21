@@ -127,6 +127,8 @@ justify-content: space-between;
   .banner> img{
     max-width:100%;
     height: auto;
+    position: relative;
+   
 
   }
    
@@ -172,6 +174,7 @@ background-color: #cdb736;
 
 .beeholder{
   width:100%;
+  position: relative;
 
 } 
     
@@ -185,8 +188,9 @@ width:100%;
 
 .beetext{
   position: absolute;
-  top: 230%;
+  top: 18%;
   left: 7%;
+  transform:(0%,-50%);
 
 
 
@@ -194,7 +198,8 @@ width:100%;
 @media only screen and (max-width: 480px) {.beetext{
 position: absolute;
 left: 5%;
-top:116%;
+top:20%;
+transform:(0%,-50%);
 }}
 
 
