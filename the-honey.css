@@ -1,11 +1,20 @@
 #header{
-   display:flex;
-   justify-content: center;
-   background-color: #625f5e;
-   width: 100%;
-   height:169px;
-   }
-   
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  background-color: 625f5e;
+  width: 100%;
+  
+  }
+  
+  @media only screen and (max-width: 480px) {
+  .logo{
+    width: 100%;
+  
+  }
+  
+  }
+  
    body{
    
        background-color: #625f5e;
@@ -63,13 +72,22 @@
      h1{color: #cdb736;
        font-family: Arial, Helvetica, sans-serif;
    }
-   
+   @media only screen and (max-width: 790px) {h1{
+    Font-size:12pt;
+
+   }}
    p{
        color: #cdb736;
        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-       font-size: 16px;
+       font-size: 16pt;
    
    }
+
+   @media only screen and (max-width: 790px) {p{
+Font-size:10pt;
+
+   }}
+
    
    .footer{
    display:flex;
@@ -113,29 +131,53 @@ video{
 }
 .bees{
 width:30%;
-
 margin-right: 110px;
 }
+
+@media only screen and (max-width: 480px) {.bees{
+width: 100%;
+margin-right:7%;
+margin-left:-5%
+}}
+
 .spinner{
   width:30%;
-margin-top: 185px;
+margin-top:1%;
+
 }
+
+@media only screen and (max-width: 480px) {.spinner{
+  width: 100%;
+  margin-right:7%;
+  margin-left:-5%
+  }}
+  
 .spinner>.spin{
-  width:40%;
-    margin-left: 30%;
+  width:60%;
+    margin-left: 20%;
+   
 }
 .poster{
   width:30%;
-  margin-top: 185px;
+  margin-top: 1%;
   text-align: center;
 }
+@media only screen and (max-width: 480px) {.poster{
+  width: 100%;
+  margin-right:7%;
+  margin-left:-5%
+  }}
+  
 .poster>.post{
-  width: 40%;
+  width: 60%;
   
 }
 .desc{
   text-align: left;
+
 }
+
+
 
 .middle {
   text-align: center;
@@ -146,9 +188,6 @@ margin-top: 185px;
   margin-top:2%;
 }
 
-.center{
-  text-align: center;
-}
 
 .long{
   width:100%;
@@ -158,31 +197,45 @@ margin-top: 185px;
   }
 
   .beemother{
-   
-     background-color: #cdb736;
-     display:flex;
-  justify-content: left;
- 
-    
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  width:100%;  
   }
   .beedaughter{
-    width:0%;
-    margin-right:22%;
+    width:30%;
+ 
+
+  }
+  .beedaughter>.beemini{
+    width:100%;
+ 
+
   }
 
+  @media only screen and (max-width: 790px) {.beedaughter{
+    width: 100%;
+    height:100%;
+  }}
 
 
+    
   .bechat{
+    width:70%;
 color:black;
-margin-right: 4%;
-margin-left: 5%;
+background-color: #cdb736;
 
   }
-  
+  @media only screen and (max-width: 790px) {.bechat{
+    width:100%;
+   
+    }}
+      
 
   .cu2{
     font-family: Arial, Helvetica, sans-serif;
     color: black;
+    margin-left: 3%;
   }
 
     .beetalk{
@@ -190,6 +243,8 @@ margin-left: 5%;
       color: black;
       font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
       margin-right:10px;
+      margin-left:3%;
+
 
 
     }

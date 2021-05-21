@@ -6,15 +6,24 @@
 
 #header{
 display:flex;
+flex-wrap: wrap;
 justify-content: center;
-background-color: 625f5e;
+background-color: #625f5e;
 width: 100%;
-height:169px;
+
+}
+
+@media only screen and (max-width: 480px) {
+.logo{
+  width: 100%;
+
+}
+
 }
 
 body{
 
-    background-color: 625f5e;
+    background-color: #625f5e;
  
 
 
@@ -27,7 +36,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: 625f5e;
+    background-color: #625f5e;
   }
   
   li {
@@ -111,8 +120,7 @@ justify-content: space-between;
       width:100%;
       height: auto;
       position: relative;
-      text-align: center;
-     
+      
 
   }
 
@@ -121,21 +129,40 @@ justify-content: space-between;
     height: auto;
 
   }
-
+   
     .overlap{ 
-
-    position: absolute;
+     
+      position: absolute;
      top: 25%;
-     left:68%;
+    left:68%;
+    text-align: center;
+    
     }
+
     #ad{
-     color:black;
-     font-weight:bold;
-     text-align:center;
-     font-size: 35pt;
+      color:black;
+      font-weight:bold;
+      font-size: 35pt;
+      white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
 
     }
-  
+    
+    
+    @media only screen and (max-width: 790px) { #ad{
+      font-size: 10pt;
+      color:black;
+      font-weight:bold;  
+     
+ 
+    } 
+
+    }
+
+    
+        
+    
 .long{
 width:100%;
 height:3px;
@@ -147,6 +174,8 @@ background-color: #cdb736;
   width:100%;
 
 } 
+    
+
 
 .beeholder>.bee{
 width:100%;
@@ -162,38 +191,130 @@ width:100%;
 
 
 }
+@media only screen and (max-width: 480px) {.beetext{
+position: absolute;
+left: 5%;
+top:116%;
+}}
 
-.beewords{
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  color: black;
 
-}
+
+
+
+
+
 .beelink{
   color: black;
 
 
 }
-#meadguy{
-  width:100%;
+
+.whole{
+  display:flex;
+  flex-wrap: wrap;
+
+  
+
+  
+
 }
+
+.leftbg{
+  width:58.5%;
+  background-color: #cdb736;
+  padding-left: 10px;
+  padding-right: 10px;
+
+}
+@media only screen and (max-width: 480px) {.leftbg{
+ Width:100%; }}
+
+
+
+
+#meadguy{
+  width:40%;
+  height: auto;
+}
+ 
 
 #meadguy>.mandrink{
 width:100%;
+height: auto;
 
 
 }
 
-.overlay2{
-  position: absolute;
-  top: 165%;
-  left:7%;
- }
+@media only screen and (max-width: 480px) {#meadguy .mandrink{
+ display:none; }}
 
+
+
+ .beewords{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: black;
+  font-size:32pt;
+  padding-left: 10px;
+  white-space: nowrap;
+     overflow: hidden;
+     text-overflow: ellipsis;
+ 
+}
+
+@media only screen and (max-width: 790px) {.beewords{
+  font-size: 10pt;
+  color:black;
+  font-weight:bold;
+  
+    
+ 
+
+} 
+
+}
+
+
+@media only screen and (max-width: 790px) { .beewords{
+  font-size: 10pt;
+  color:black;
+  font-weight:bold; }}
+
+ 
  .text{
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   color: black;
-  margin-left: 0%;
-  margin-right:40%
+  font-size: 16pt;
+ padding-left: 10px;
 
 
- }
+}
+  
+@media only screen and (max-width: 790px) {.text{
+  font-size: 10pt;
+  color:black;
+  font-weight:bold;}}
+
+
+  .beespeak{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+    font-size:32pt;
+    padding-left: 10px;
+    white-space: nowrap;
+       overflow: hidden;
+       text-overflow: ellipsis;
+   
+  }
+
+
+  
+@media only screen and (max-width: 790px) {.beespeak{
+  font-size: 10pt;
+  color:black;
+  font-weight:bold;  
+ 
+} 
+
+}
+
+ 
